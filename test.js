@@ -17,7 +17,7 @@ var person = {
 }
 
 let variables1 = {
-    const pi: 3.14159,
+    pi: 3.14159,
     eulers: 2.718,
     g:9.81,  
     force: function(mass) { return this.g*mass;}   
@@ -34,7 +34,7 @@ person.firstName = "ABCD"
 
 variables1.pi = 23
 console.log(kait.age)
-console.log(person.firstName)
+
 console.log(variables1.pi)
 
 let test1= 22
@@ -45,10 +45,10 @@ console.log(test1)
 console.log(test2)
 console.log(test3)
 
-test1 = 34
-test2= 399
-test3 = 1234
+// test1 = 34
+// test2= 399
+// test3 = 1234
 
-console.log(test1)
-console.log(test2)
-console.log(test3)
+// console.log(test1)
+// console.log(test2)
+// console.log(test3)
